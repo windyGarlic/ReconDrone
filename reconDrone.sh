@@ -165,7 +165,7 @@ if [[ $ASN == "1" ]]; then
 	fi
 
 	COMPANY=$(echo $DOMAIN | awk -F "." '{print$1}')
-    ddgs text -k "nextdc asn ip" -m 5 -o csv
+    ddgs text -k "$domain asn ip" -m 5 -o csv
     ASN=$(cat *.csv | grep -o 'AS[0-9]\+' | head -n1 | awk -F "S" '{print $2}')
     
     
