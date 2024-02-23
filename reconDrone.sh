@@ -41,7 +41,7 @@ E.g: reconDrone -d example.com -n -a --json
 fi
 
 # Parse options
-TEMP=$(getopt -o d:nwaf --long domain:,nuclei,wafwoof,amass,fullscan,json,sql,sheets -- "$@")
+TEMP=$(getopt -o d:nwwfa --long domain:,nuclei,wafwoof,amass,fullscan,json,sql,sheets -- "$@")
 
 if [ $? -ne 0 ]; then
     echo "Error in command line arguments."
