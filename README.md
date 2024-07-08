@@ -4,9 +4,8 @@
 
 <h1>Recon Drone</h1>
 
-This is a tool that preforms an audit of a companys public facing web assets. It will generate subdomains and gather data such as the technoligies each asset 
-is using such as (WAF, CDN, ect.). It can also preform vulnerability 
-scanning on all public facing web applications.
+This is a tool that perform an audit of a companys public facing web assets. It will generate subdomains and gather data such as the technologies each asset 
+is using such as (WAF, CDN, ect.). It can also perform vulnerability scanning on all public facing web applications.
 
 <h2>usage</h2>
 
